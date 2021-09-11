@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+<link href="marksheet.css" rel="stylesheet" type="text/css">
+    <style type="text/css" media="print">
+        .Page {
+            display: none;
+        }
+
+        .verticalLine {
+            border-left: thick solid #ff0000;
+        }
+
+        .imgmargin {
+            margin-right: 20px;
+        }
+
+        .imgcaptch > img {
+            border: 1px solid grey !important;
+            width: 130px;
+            height: 40px;
+        }
+
+        .button {
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="./marksheet.html" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnSubmit')" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1NzM5Mzk0MzkPZBYCAgMPZBYKAgkPDxYCHgRUZXh0ZWRkAgsPFgIeB1Zpc2libGVoZAINDxYCHwFoFgQCAQ88KwARAgEQFgAWABYADBQrAABkAgMPPCsAEQIBEBYAFgAWAAwUKwAAZAIRDzwrABECARAWABYAFgAMFCsAAGQCEw8WAh8BaGQYBAUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFBmltZ3JlZgUJR3JpZFZpZXcxD2dkBQtncmR2TGFzdEV4bQ9nZAUFZ3JkdjIPZ2SP4LZcQwZul8DBECEWkW4aVijr8+7oo1NkAEpQXnjlTQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=023GZwYJa1mP-iToFYugvLEN1yohVFPF05uVxTp8zGdi1_5c4YGgqYSoNgIdiB0yU5M-YdRzungBCDHrKyH0J2CI6hAe1B0ceJQ9Z441YpM1&amp;t=637020724373396906" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=cbPKfv7Uiicukkhnjz6PzcDqp_nNwJPAduKMdqg-D6eFVio8_qWV_Io4EISb3PDfEz0BDIqwJ-JJkG72lPQVCvMEjKGl9595wbltamTFxxY1&amp;t=637020724373396906" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAULuYTcS2Bbv0sXcXqDGFc4ZAOKKrbaqBuZEOgDujbIJE7faODj1tnvTzvom6kOTSTV8jFig0gbXGgleszPUj0LPOaW1pQztoQA36D1w/+bXYJy/Qm9+LbhUieKyUTwFjkARq6t63XgTobACmevO6Eh" />
+</div>
+         <div class="page">
+            <div class="header">
+                
+                <div class="title">
+                    <img src="" style="margin-left: -880px; width: 50px; margin-top: 5px; margin-bottom: -35px;" />
+                    <center>
+                    <h1>
+                        Gujarat Technological University</h1>
+                </center>
+                    <h2 id="PGTitle">Student Grade History
+                    </h2>
+                </div>
+                <div class="clear hideSkiplink">
+                </div>
+            </div>
+            <div class="main">
+                <table class="Page">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td height="15px">Enrollment No :
+                        </td>
+                        <td>
+                            <input name="txtEnrollNo" type="text" maxlength="12" id="txtEnrollNo" tabindex="1" oninvalid="setCustomValidity(&#39;Invalid Enroll No.&#39;)" onchange="try{setCustomValidity(&#39;&#39;)}catch(e){}" pattern="\d*" style="font-size:Large;height:35px;" />
+
+                            
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="imgmargin">
+                    <tr>
+                        <td>
+                            
+                            <input type="image" name="imgref" id="imgref" class="imgmargin" src="images/refresh_24.png" alt="Refresh" onclick="javascript:RefreshCaptcha();" />
+                        </td>
+                        <td dir="ltr">
+                            <img src="../Handler.ashx" id="imgCaptcha" />
+                            
+                        </td>
+                        <td>Captcha Validation :
+                        </td>
+                        <td>
+                            <input name="CodeNumberTextBox" type="text" maxlength="9" id="CodeNumberTextBox" tabindex="2" class="csstext" style="color:#CC0000;font-size:Large;height:35px;width: 80px; height: 20px; padding-top: 2px; margin-top: 5px;" />
+                        </td>
+                        <td>
+                            <input type="submit" name="btnSubmit" value="Search..." id="btnSubmit" tabindex="3" class="button" style="background-color:#999999;border-style:Solid;font-size:Medium;font-weight:normal;height:40px;width:150px;" />
+                            
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <span id="lblMSG" style="color:Red;font-weight:bold;"></span>
+            </td>
+        </tr>
+    </table>
+    
+    
+    <div style="text-align: center">
+        <span id="dtnmsg" style="color:Maroon;font-size:11pt;"></span>
+    </div>
+    <div style="vertical-align: bottom">
+        
+        <div>
+
+</div>
+    </div>
+    
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('btnSubmit');//]]>
+</script>
+</form>
+</body>
+</html>
